@@ -75,4 +75,4 @@ final_bt_results <- bt_results %>%
   select(id, .pred) %>% 
   rename(Id = id, Predicted = .pred)
 
-write_csv(final_bt_results, "predictions/bt_predictions_6.csv")
+write_csv(final_bt_results, "predictions/bt_predictions6.csv")
