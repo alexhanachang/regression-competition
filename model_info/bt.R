@@ -86,7 +86,7 @@ bt_wflow_tuned <- bt_wflow %>%
 
 # fit ---------------------------------------------------------------------
 bt_results <- fit(bt_wflow_tuned, train)
-bt_results
+
 
 # test-set-performance ----------------------------------------------------
 bt_predictions <- bt_results %>%
