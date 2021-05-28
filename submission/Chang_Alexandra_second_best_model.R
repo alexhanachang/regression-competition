@@ -1,11 +1,12 @@
 #### boosted tree model ####
 # load-packages -----------------------------------------------------------
-library(tidyverse)
 library(tidymodels)
+library(tidyverse)
 
 
 # set-seed -----------------------------------------------------------------
 set.seed(123)
+
 
 # read-in-data ------------------------------------------------------------
 train <- read_csv(file = "data/train.csv") %>% janitor::clean_names()
