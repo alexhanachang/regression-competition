@@ -2,4 +2,11 @@
 .Rhistory
 .RData
 .Ruserdata
-/model_info
+
+git rm --cached - r -- model_info/
+git add .
+git commit -m
+
+git rm --cached - r -- predictions/
+git add .
+git commit -m
